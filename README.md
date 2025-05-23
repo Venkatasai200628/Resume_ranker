@@ -1,5 +1,5 @@
 # Elevate-Labs-project
-/Download the code and paste them in the python interface 
+*Download the code and paste them in the python interface 
 Download the index and result html files save the files in the way as 
 resume_ranker.py
 templates folder
