@@ -22,8 +22,8 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 nlp = spacy.load('en_core_web_sm')
 
 # xAI API configuration (replace with your API key)
-XAI_API_KEY = "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"
-XAI_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+XAI_API_KEY = "replace your api keys"
+XAI_API_URL = "api keys endpoint"
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_file):
@@ -137,4 +137,5 @@ def download_report(filename):
     return send_file(os.path.join(app.config['UPLOAD_FOLDER'], filename), as_attachment=True)
 
 if __name__ == '__main__':
+
     app.run(debug=True)
